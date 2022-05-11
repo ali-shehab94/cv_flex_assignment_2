@@ -1,1 +1,7 @@
 /* color pallete: #EFEFEF, #F66B0E, #205375, #112B3C */
+
+body {
+    background-image: url(../assets/images/bg_image.png);
+    background-size: 100%;
+    text-align: center;
+}
