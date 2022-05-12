@@ -143,3 +143,26 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #F66B0E;
 }
+
+.flexbox-item {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #F66B0E;
+    text-align: center;
+    margin-top: 30;
+}
+
+.flexbox-item:hover {
+    background-color: #112B3C;
+    transition: all 0.3s ease 0s;
+}
+
+.flexbox-container {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
