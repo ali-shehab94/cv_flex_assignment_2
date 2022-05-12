@@ -22,9 +22,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-body {
-	font-family: poppins;
-}
+
 li, a, button {
 	font-family: 'Radio Canada', sans-serif;
     color: #EFEFEF;
@@ -34,14 +32,24 @@ li, a, button {
 }
 
 button {
-    color: #205375;
+    color: #112B3C;
     width: 100px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+}
+
+button:hover {
+    color: #EFEFEF;
+    background-color: #F66B0E;
 }
 
 body {
     margin: 0;
     background-size: 100%;
     font-family: 'Radio Canada', sans-serif;
+    text-shadow: 1px 1px 7px black;
 }
 
 
@@ -51,6 +59,7 @@ h1 {
 }
 
 p {
+    margin-top: 30px;
     color: #EFEFEF;
 }
 
@@ -73,10 +82,64 @@ p {
 }
 
 .nav_links a:hover {
-    color: F66B0E
+    color: #112B3C;
 }
 
 .flex-container-header {
+    width: 100%;
+    height: auto;
     background-color: #F66B0E;
 
+}
+
+.intro {
+    position: 100;
+    text-align: center;
+}
+
+.my-photo {
+    flex: auto;
+    display: inline-block;
+    position: center;
+    width: 100;
+    margin-top: 50px;
+}
+
+.table {
+    flex: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+.contact-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #ccc;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #F66B0E;
 }
